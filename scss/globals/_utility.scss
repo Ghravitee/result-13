@@ -1,0 +1,23 @@
+.container-0 {
+  max-width: 70rem;
+  padding: 3.5em 2em;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: var(--Dark-Gray-Blue);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: var(--Light-Royal-Blue);
+}
+
+a.btn {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--White);
+  border-radius: 3rem;
+}

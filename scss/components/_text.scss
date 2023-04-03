@@ -1,0 +1,143 @@
+.result {
+   font-size: 1rem;
+   color: var(--Light-Lavender);
+
+   @media (min-width: 56.25rem) {
+      font-size: 1.45rem;
+      margin-bottom: 1rem;
+      grid-column: 2 / 3;
+   }
+
+}
+
+.num {
+   color: var(--White);
+   font-size: 2.5rem;
+   font-weight: 800;
+
+   @media (min-width: 56.25rem) {
+      font-size: 4.5rem;
+   }
+}
+
+.num__span {
+   font-size: .8rem;
+   color: var(--Light-Lavender);
+   opacity: .7;
+
+   @media (min-width: 56.25rem) {
+      font-size: 1.2rem;
+   }
+}
+
+.great {
+   color: var(--Pale-Blue);
+   
+   @media (min-width: 56.25rem) {
+      font-size: 1.5rem;
+      grid-column: 2 / 3;
+      margin-top: 1rem;;
+   }
+
+   @media (min-width: 89.997em) {
+      font-size: 2rem;
+      
+     
+     
+   }
+}
+
+.comment {
+   color: var(--Light-Lavender);
+   width: 80%;
+   margin: 0 auto;
+   font-size: .9rem;
+
+   @media (min-width: 56.25rem) {
+      grid-column: 2 / 3;
+      width: 85%;
+      font-size: 1.1rem;
+   }
+
+}
+
+.summary {
+   color: var(--Dark-Gray-Blue);
+   font-size: 1.2rem;
+   text-align: left;
+   margin-bottom: 1rem;
+
+   @media (min-width: 56.25rem) {
+      font-size: 1.5rem;
+      margin-bottom: 2.3rem;
+   }
+}
+
+.reaction__paragraph {
+   color: var(--Light-Red);
+   font-size: 1rem;
+   font-weight: 700;
+   justify-self: start;
+}
+
+.reaction__score {
+   color: var(--Dark-Gray-Blue);
+   font-weight: 700;
+}
+
+.reaction__score-span {
+   color: var(--Dark-Gray-Blue);
+   opacity: .6;
+}
+
+.memory__paragraph {
+   color: var(--Orangey-Yellow);
+   font-size: 1rem;
+   font-weight: 700;
+   justify-self: start;
+}
+
+.memory__score {
+   color: var(--Dark-Gray-Blue);
+   font-weight: 700;
+}
+
+.memory__score-span {
+   color: var(--Dark-Gray-Blue);
+   opacity: .6;
+}
+
+
+.verbal__paragraph {
+   color: var(--Green-Teal);
+   font-size: 1rem;
+   font-weight: 700;
+   justify-self: start;
+}
+
+.verbal__score {
+   color: var(--Dark-Gray-Blue);
+   font-weight: 700;
+}
+
+.verbal__score-span {
+   color: var(--Dark-Gray-Blue);
+   opacity: .6;
+}
+
+.visual__paragraph {
+   color: var(--Cobalt-Blue);
+   font-size: 1rem;
+   font-weight: 700;
+   justify-self: start;
+}
+
+.visual__score {
+   color: var(--Dark-Gray-Blue);
+   font-weight: 700;
+}
+
+.visual__score-span {
+   color: var(--Dark-Gray-Blue);
+   opacity: .6;
+}
